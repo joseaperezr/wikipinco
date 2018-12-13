@@ -1,0 +1,49 @@
+# Descripción de la aplicación
+<p><b>Definición funcional, construcción, implantación y soporte operativo necesario para la interoperabilidad de los sistemas de información de la Consejerías de Agricultura, Ganadería, Pesca y Aguas (CAGPA).</b></p>
+<p>Se pretende dotar a la CAGPA de una Plataforma de Interoperabilidad cuyo objetivo final sea conseguir una mejora en la eficacia de los procesos y unificar la información que gestiona, desarrollando un entorno que interconecte todas las aplicaciones que tenga relación</p>
+<p>Esta Plataforma de Interoperabilidad estará basada en un Bus de Servicios
+Empresarial, o ESB de sus siglas en inglés Enterprise Service Bus, herramienta que integra y gestiona la comunicación entre los diferentes servicios presente en un sistema de información, proporcionando una capa de abstracción sobre los diferentes servicios distribuidos mostrando un único acceso a todos los servicios existentes, enrutando y orquestando las peticiones, transformando, y verificando y distribuyendo los mensajes en el sistema</p>
+<p>El bus de datos será la pieza clave de la nueva infraestructura siendo el responsable de gestionar todas las comunicaciones y relaciones entre los diferentes 
+ servicios y componentes del sistema de información. En él se publicarán todos los servicios, horizontales y verticales, del sistema, abstrayendo cualquier 
+ modificación técnica o funcional de los subservicios implicados para mantener unas interfaces estandarizadas y homogéneas a lo largo del tiempo, minimizando la variabilidad futura en las interfaces (modelo y puntos de acceso) salvo nuevos requerimientos que pudieran aparecer y obliguen a modificaciones del modelo (nuevos parámetros o métodos)./p>
+<p>De cara a los consumidores y proveedores de servicios el sistema el bus será su único punto de entrada/salida, no se comunicarán directamente con los otros
+servicios, sólo a través del bus, que enrutará los mensajes a los nodos correspondientes, realizará las transformaciones correspondientes, añadirá información de auditoría y ejecutará el flujo de llamadas correcto en cada caso (orquestación).</p>
+
+# Requerimientos previos para llevar a cabo la instalación
+<p> </p>
+
+## Requisitos del entorno en el que se va a montar
+<p> </p>
+
+## Dependencias de otros sistemas
+### LDAP
+<p>El sistema se integra con el LDAP corporativo del Gobierno de Canarias para validar las credenciales de aquellos usuarios  que pueden interactuar con las aplicaciones de la Plataforma de Interoperabilidad, como po rejemplo el Catálogo de servicios.</p>
+
+### PLATINO
+<p>El sistema debe integrarse con la Plataforma de Interoperabilidad del Gobierno de Canarias con el objetivo de ejecutar procesos de tramitación relacionados con servicios de administración electrónica, registro, firma, gestión documental, etc.</p>
+
+# Componentes de la instalación
+<p> </p>
+
+# Procedimiento de instalación
+> Se deberán describir detalladamente los pasos necesarios para instalar la aplicación desde cero hasta la versión actual que se entrega
+
+El procedimiento se encuentra detallado en la Wiki.
+
+<p> </p>
+
+# Procedimiento de actualización desde versión anterior
+> Se deberán detallar los pasos necesarios para actualizar la instalación de la aplicación desde cualquier versión anterior a la versión actual
+
+<p> </p>
+
+> `
+> if algo 
+> `
+> 
+
+
+[Whatsapp Video 2018 12 04 At 08 07 05](/uploads/whatsapp-video-2018-12-04-at-08-07-05.mp4 "Whatsapp Video 2018 12 04 At 08 07 05")
+
+-----
+
